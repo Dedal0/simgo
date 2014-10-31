@@ -149,6 +149,7 @@ class simgo {
         $string = str_replace(">", "&#62;", $string);
         $string = str_replace("<", "&#60;", $string);
         $string = str_replace("'", "&#39;", $string);
+        $string = str_replace("\"", "&quot;", $string);
         $string = str_replace("-", "&#45;", $string);
         $string = str_replace("_", "&#95;", $string);
         $string = str_replace("=", "&#61;", $string);
